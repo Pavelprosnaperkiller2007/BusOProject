@@ -5,7 +5,7 @@
 class Manager {
 public:
 	Bus find_bus_with_first_min_price(Bus* buses, int size) {
-		bus min = buses[0];
+		Bus min = buses[0];
 
 		for (int i = 1; i < size; i++)
 		{
