@@ -3,6 +3,7 @@
 #include "bus.h"
 
 class Manager {
+public:
 	Bus find_bus_with_first_min_price(Bus* buses, int size) {
 		bus min = buses[0];
 
